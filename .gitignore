@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+*.log
+.vscode/
+.gitconfig
+.DS_Store
+node_modules/
