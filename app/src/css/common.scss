@@ -1,0 +1,38 @@
+/*全局样式*/
+
+// 输入框白色提示文字
+.phwhite input::-webkit-input-placeholder {
+    color: #fff !important;
+}
+
+.phwhite input::-moz-placeholder {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+.inputfontwhite input {
+    color: #fff !important;
+}
+
+
+/*---去除input number的箭头按钮---*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: textfield;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.clickable {
+    /*可点击*/
+    cursor: pointer !important;
+}
+
+.disable {
+    /*不可操作*/
+    cursor: no-drop !important;
+    background-color: rgb(153, 153, 153);
+}
