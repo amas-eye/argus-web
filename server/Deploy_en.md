@@ -11,7 +11,7 @@
 
 1. front-end start
    #### needed to be build , no need to run another process,it can be started with node app
-   1. go in to app or app_phone folder,and do npm install
+   1. go in to app folder,and do npm install
    2. after the dependencies installed, run npm run build
    3. waiting for build finish, dist folder will be created
      and then rename the dist folder into the father folder name(e.g: app/dist change to app/app ),the copy to the argus-web/server

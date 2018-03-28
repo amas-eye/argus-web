@@ -9,7 +9,7 @@
 1. 前端部分启动
    随后端一起启动，不需要单独处理
    但是需要单独分开整理：
-   进入app 和 app_phone 目录，使用npm install(cnpm install)
+   进入app 目录，使用npm install(cnpm install)
    当安装完成后，使用npm run build(cnpm run build)进行前端项目的打包工作
    然后把生成的dist目录重命名为对应的目录名（如app，把dist目录修改为app）然后放到server目录里面
    目前在linux部分build会失败，正在找原因。
