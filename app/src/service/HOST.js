@@ -6,7 +6,7 @@
 
          let HOST = '/mylocal';
          if (process.env.NODE_ENV === 'production') {
-           HOST = '';
+           HOST = 'http://127.0.0.1:8080';
          }
 
          export {

@@ -77,9 +77,9 @@ module.exports = {
     deploy: { //远程部署配置
         production: {
             user: 'node',
-            host: '212.83.163.1', //主机地址
+            host: 'github.com', //主机地址
             ref: 'origin/master', // git代码分支
-            repo: 'git@github.com:repo.git', //git地址
+            repo: 'git@github.com:amas-eye/argus-web.git', //git地址
             path: '/var/www/production', //部署路径
             "ssh_options": "StrictHostKeyChecking=no", //ssh配置
             "pre-setup": "apt-get install git", // 安装项目前安装git 
@@ -92,9 +92,9 @@ module.exports = {
         },
         dev: {
             user: 'node',
-            host: '212.83.163.1',
+            host: 'github.com',
             ref: 'origin/master',
-            repo: 'git@github.com:repo.git',
+            repo: 'git@github.com:amas-eye/argus-web.git',
             path: '/var/www/development',
             'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env dev',
             env: {
