@@ -5,7 +5,8 @@
     "scripts": {
         "dev": "pm2 start ecosystem.config.js --only node_test",
         "start": "pm2 start ecosystem.config.js --only node_app",
-        "sim_start": "node ./bin/www.js"
+        "sim_start": "node ./bin/www.js",
+        "init": "node ./bin/init.js &",
     },
     "dependencies": {
         "body-parser": "^1.17.1",
